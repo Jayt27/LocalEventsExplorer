@@ -3,7 +3,7 @@
 A small iOS app that shows nearby events, lets you bookmark the ones you
 care about, and gets you directions to them. 
 
-## What it does
+## What App does
 
 - Shows a list of nearby events (title, location, time, photo)
 - Lets you bookmark events, and see them again in a separately —
@@ -14,7 +14,7 @@ care about, and gets you directions to them.
   that loaded successfully.(Because it is stored)
 - Refreshes itself quietly in the background every hour or so
 
-## Stack, and why
+## Stack
 
 - **UIKit**, with XIBs for each screen.
 - **MVVM** — the view controllers only know about their ViewModel, the
@@ -40,7 +40,7 @@ care about, and gets you directions to them.
   Apple-blessed way to do "occasionally wake up and refresh some data,"
   and it respects battery/usage patterns instead of running on a timer.
 
-## Project layout
+## Project Structure
 
 ```
 App/
