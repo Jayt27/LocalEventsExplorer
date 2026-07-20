@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ECC53CC5-F599-4ED5-AA82-BA84520F3046"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F88CD2F0-B310-49A6-B52B-CFDE261F4D7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalEventsExplorer/ViewController/EventList/EventsListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "bookmarkTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F88CD2F0-B310-49A6-B52B-CFDE261F4D7B - ca293dc15b67872a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LocalEventsExplorer.EventsListViewController.bookmarkTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "LocalEventsExplorer.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaythakkar/Documents/Practise/LocalEventsExplorer/Assignment-LocalEventsExplorer/LocalEventsExplorer/ViewController/EventList/EventsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184">
+               </Location>
+               <Location
+                  uuid = "F88CD2F0-B310-49A6-B52B-CFDE261F4D7B - e07e6e07c5aa3975"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () async -&gt; () in LocalEventsExplorer.EventsListViewController.bookmarkTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "LocalEventsExplorer.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaythakkar/Documents/Practise/LocalEventsExplorer/Assignment-LocalEventsExplorer/LocalEventsExplorer/ViewController/EventList/EventsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184">
+               </Location>
+               <Location
+                  uuid = "F88CD2F0-B310-49A6-B52B-CFDE261F4D7B - 5e8b494df979fa15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in LocalEventsExplorer.EventsListViewController.bookmarkTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "LocalEventsExplorer.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaythakkar/Documents/Practise/LocalEventsExplorer/Assignment-LocalEventsExplorer/LocalEventsExplorer/ViewController/EventList/EventsListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "184"
+                  endingLineNumber = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A05D96F-F95E-4C81-9E56-97D597339BD8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LocalEventsExplorer/BackgroundRefreshManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "handleAppRefresh(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

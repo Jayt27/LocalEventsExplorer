@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Toronto Indie Food Market",
+    "location": "Distillery District, Toronto",
+    "latitude": 43.6503,
+    "longitude": -79.3596,
+    "time": "2026-07-18T17:00:00Z",
+    "image_url": "https://picsum.photos/seed/evt001/600/400",
+    "description": "A weekend market featuring 40+ local food vendors, live music, and craft stalls in the historic Distillery District."
+  },
+  {
+    "id": 2,
+    "title": "Waterfront Jazz Night",
+    "location": "Harbourfront Centre, Toronto",
+    "latitude": 43.6387,
+    "longitude": -79.3816,
+    "time": "2026-07-19T20:30:00Z",
+    "image_url": "https://picsum.photos/seed/evt002/600/400",
+    "description": "An open-air jazz performance on the lake with local and touring quartets."
+  },
+  {
+    "id": 3,
+    "title": "Kensington Market Art Walk",
+    "location": "Kensington Market, Toronto",
+    "latitude": 43.6547,
+    "longitude": -79.4005,
+    "time": "2026-07-20T14:00:00Z",
+    "image_url": "https://picsum.photos/seed/evt003/600/400",
+    "description": "Self-guided walking tour through mural alleys and pop-up galleries."
+  },
+  {
+    "id": 4,
+    "title": "Riverdale Park Yoga Session",
+    "location": "Riverdale Park, Toronto",
+    "latitude": 43.6683,
+    "longitude": -79.3559,
+    "time": "2026-07-18T08:00:00Z",
+    "image_url": "https://picsum.photos/seed/evt004/600/400",
+    "description": "Free sunrise yoga session, bring your own mat, all levels welcome."
+  },
+  {
+    "id": 5,
+    "title": "Tech Meetup: On-Device ML",
+    "location": "MaRS Discovery District, Toronto",
+    "latitude": 43.6596,
+    "longitude": -79.3897,
+    "time": "2026-07-21T18:30:00Z",
+    "image_url": "https://picsum.photos/seed/evt005/600/400",
+    "description": "Talks on Core ML, on-device inference, and privacy-preserving personalization."
+  },
+  {
+    "id": 6,
+    "title": "High Park Cherry Blossom Photography Walk",
+    "location": "High Park, Toronto",
+    "latitude": 43.6465,
+    "longitude": -79.4637,
+    "time": "2026-07-22T09:00:00Z",
+    "image_url": "https://picsum.photos/seed/evt006/600/400",
+    "description": "Guided photography walk covering composition basics and golden-hour tips."
+  },
+  {
+    "id": 7,
+    "title": "High Park Cherry Blossom Photography Walk - NO Image",
+    "location": "High Park, Toronto",
+    "latitude": 43.6465,
+    "longitude": -79.4637,
+    "time": "2026-07-22T09:00:00Z",
+    "image_url": "",
+    "description": "Guided photography walk covering composition basics and golden-hour tips."
+  }
+]
