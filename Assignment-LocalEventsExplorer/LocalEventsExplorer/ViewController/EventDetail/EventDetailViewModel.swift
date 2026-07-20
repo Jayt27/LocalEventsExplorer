@@ -53,19 +53,16 @@ final class EventDetailViewModel {
      */
 
     var distanceAndLocationText: String {
-        if calculateDistance() == 0 {
-            return "Sorry, We are not able to find distance. Please check your location settings."
-        } else {
-            return String(format: "%@\n(%.1f km away)", event.locationName, calculateDistance())
-        }
+            return String(format: "%.1f km away", calculateDistance())
     }
 
     func calculateDistance() -> Double {
         guard let userLoc = userLocation else {
-            return 0
+            return 0.0
         }
         let eventLoc = CLLocation(latitude: event.latitude, longitude: event.longitude)
-        return userLoc.distance(from: eventLoc) / 1000.0
+        let distance = userLoc.distance(from: eventLoc) / 1000.0
+        return distance
     }
 
     var coordinates: (latitude: Double, longitude: Double) {

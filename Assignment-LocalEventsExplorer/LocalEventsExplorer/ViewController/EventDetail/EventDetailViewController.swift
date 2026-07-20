@@ -53,6 +53,9 @@ final class EventDetailViewController: UIViewController {
                 self.imageView.image = image
             }
         }
+        viewModel.onLocationUpdated = { [weak self] distance in
+            self?.distanceLabel.text = distance
+        }
 
         // Setup navigation button tap action
         navigationButton.addTarget(self, action: #selector(navigationButtonTapped), for: .touchUpInside)
@@ -73,6 +76,7 @@ final class EventDetailViewController: UIViewController {
             // Request a single high-accuracy update to save battery life
             locationManager.requestLocation()
         case .denied, .restricted:
+            self.viewModel.onLocationUpdated?("Location access denied by user. Please enable location access in Settings")
             print("Location access denied by user.")
         @unknown default:
             break
@@ -99,18 +103,8 @@ extension EventDetailViewController: CLLocationManagerDelegate {
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let userLocation = locations.first else { return }
-
-        // Calculate distance
-        let eventLocation = CLLocation(latitude: viewModel.coordinates.latitude, longitude: viewModel.coordinates.longitude)
-
-        // distance(from:) returns meters -> convert to kilometers
-        let distanceInKilometers = userLocation.distance(from: eventLocation) / 1000.0
-
-        // Update the UI label to show the calculated distance
-        DispatchQueue.main.async { [weak self] in
-            guard let self = self else { return }
-            self.distanceLabel.text = String(format: "%.1f km away", distanceInKilometers)
-        }
+        manager.stopUpdatingLocation()
+        viewModel.updateUserLocation(userLocation)
     }
 
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
